@@ -1,0 +1,50 @@
+---
+title: "Loki (TV Series)"
+author: "Kamil Kashif"
+toc: true
+number-sections: true
+highlight-style: pygments
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+---
+![Source: www.disneyplus.com](./images/loki.webp)
+
+# *What is Loki?*
+
+Loki is an American television series created by Michael Waldron for the streaming service Disney+, based on Marvel Comics featuring the character of the same name. It is the third television series in the Marvel Cinematic Universe (MCU) produced by Marvel Studios, sharing continuity with the films of the franchise. The series takes place after the events of the film Avengers: Endgame (2019), in which an alternate version of Loki created a new timeline. Waldron served as head writer and Kate Herron directed the first season, with Eric Martin and the duo Justin Benson and Aaron Moorhead serving as head writer and leading the directing team for the second season, respectively.
+
+
+# *Premiere and Finale* 
+
+Loki premiered on June 9, 2021. Its first season, consisting of six episodes, concluded on July 14 and is part of Phase Four of the MCU. It received positive reviews from critics, especially for the performances. A second season, also consisting of six episodes, ran from October 5 to November 9, 2023, as part of Phase Five. It also received positive reviews, with praise for its conclusion, musical score, and Loki's character arc.
+
+# *Cast of Loki*
+
+In the table below you may find the cast of this TV Series and the the names of the characters they played.
+```{r, echo=FALSE}
+# Define the data in R
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  "Celebrity" = c("Tom Hiddleston","Gugu Mbatha-Raw","Wunmi Mosaku","Eugene Cordero","Tara Strong","Owen Wilson","Sophia Di Martino","Sasha Lane","Jack Veal","DeObia Oparei","Richard E. Grant","Jonathan Majors","Rafael Casal","Kate Dickie","Liz Carr","Neil Ellice","Ke Huy Quan","Richard Dixon"),
+  
+  "Character" = c("Loki","Ravonna Renslayer","Hunter B-15","Casey / Hunter K-5E","Miss Minutes (voice)","Mobius M. Mobius","Sylvie","Hunter C-20","Kid Loki","Boastful Loki","Classic Loki","He Who Remains / Victor Timely","Hunter X-5 / Brad Wolfe","General Dox","Judge Gamble","Hunter D-90","Ouroboros \"O.B.\"","Robber Baron")
+)
+
+# Display the dataframe
+kable(data, col.names = c("Celebrity" , "Character"), align = "c", booktabs = TRUE)
+
+```
+
+# *The Protagonist*
+
+The role of **Loki** is played by **Tom Hiddleston**.
+
+The Asgardian god of mischief and Thor's adopted brother, based on the Norse mythological deity of the same name. This is an alternate, "time-variant" version of Loki who created a new timeline in *Avengers: Endgame (2019)* beginning in 2012. Because of this, he has not gone through the events of *Thor: The Dark World (2013)* or *Thor: Ragnarok (2017)*, which reformed the previously villainous character before his death in *Avengers: Infinity War (2018).*
+
+The image below present a picture of the protagonist and the the character he played.
+
+![Source: https://www.looper.com/1452163/tom-hiddleston-may-never-play-marvel-loki-again/](./images/loki_tom_hidelton.jpeg)
